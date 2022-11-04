@@ -1,3 +1,15 @@
+For running project
+
+1-install python
+2-pip-
+  1 python -m pip install Django
+  2 python -m pip install djangorestframework
+
+3-Go to project directory :
+    python manage.py makemigrations
+    python manage.py migrate
+    python manage.py runserver
+
 End points
 
 1-'http://127.0.0.1:8000/admin/' for admin access
@@ -14,3 +26,4 @@ End points
 superuser 
 username = admin
 password = admin
+
